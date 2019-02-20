@@ -1,0 +1,12 @@
+body,h1,h4,h5 { font-family: "Raleway", sans-serif }
+
+body, html { height: 100% }
+
+p.tiny { font-size: 5px; }
+
+.bgimg {
+	background-image: url('../images/background_small.jpg');
+	min-height: 100%;
+	background-position: center;
+	background-size: cover;
+}

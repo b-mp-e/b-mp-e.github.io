@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<!--
+############################################################
+Legal(ish?) Disclaimer. 
+	This is just meant to be a resume/personal site,
+	please don't be mad oh mighty lawyer, I mean you no harm
+############################################################
+
+Disclaimer  
+==========
+
+Last updated: February 19, 2019
+
+The information contained on https://b-mp-e.github.io website (the "Service")
+is for general information purposes only.
+
+b-mp-e assumes no responsibility for errors or omissions in the contents on
+the Service.
+
+In no event shall b-mp-e be liable for any special, direct, indirect,
+consequential, or incidental damages or any damages whatsoever, whether in an
+action of contract, negligence or other tort, arising out of or in connection
+with the use of the Service or the contents of the Service. b-mp-e reserves
+the right to make additions, deletions, or modification to the contents on the
+Service at any time without prior notice. This Disclaimer for b-mp-e has been
+created with the help of [TermsFeed](https://termsfeed.com/).
+
+b-mp-e does not warrant that the website is free of viruses or other harmful
+components.
+
+External Links Disclaimer  
+=========================
+
+https://b-mp-e.github.io website may contain links to external websites that
+are not provided or maintained by or in any way affiliated with b-mp-e
+
+Please note that the b-mp-e does not guarantee the accuracy, relevance,
+timeliness, or completeness of any information on these external websites.	
+-->
+
+
+
+
+<!--
+##################################################
+Credits 
+	(At the beginning of the movie too! How rude.)
+##################################################
+
+Inspiration and Framework Template
+==================================
+
+This website was started, and then adapted, from a www.w3schools.com template. The template is found here:
+https://www.w3schools.com/w3css/w3css_templates.asp
+"Modal Restaurant Template"
+-->
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>b-mp-e</title>
+	<link rel="shortcut icon" href = "../images/icon.png">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<div class="bgimg w3-display-container w3-text-white">
+	  <div class="w3-display-middle w3-jumbo">
+		<img src="../images/icon.png" alt="Logo">
+	  </div>
+	  
+	  <div class="w3-display-topleft w3-container w3-xlarge">
+		<p><button onclick="document.getElementById('about').style.display='block'" class="w3-button w3-block w3-white w3-hover-indigo" style="width:100%">about</button></p>
+		<p><button onclick="document.getElementById('published').style.display='block'" class="w3-button w3-block w3-white w3-hover-indigo" style="width:100%">publications</button></p>
+	  </div>
+	  
+	  <div class="w3-display-bottomright w3-container w3-xlarge">
+		<p><button onclick="document.getElementById('avocation').style.display='block'" class="w3-button w3-block w3-white w3-hover-indigo" style="width:100%">avocations</button></p>
+		<p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-block w3-white w3-hover-indigo" style="width:100%">contact</button></p>
+	  </div>
+	</div>
+
+	<!-- About -->
+	<div id="about" class="w3-modal">
+	  <div class="w3-modal-content w3-animate-zoom">
+		<div class="w3-container w3-indigo">
+		  <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+		  <h1>About</h1>
+		</div>
+		
+		<div class="w3-container w3-blue">
+			<h5>Me</h5>
+		</div>
+		<div class="w3-container">
+			<p>Hello!</p>
+			<p>I am a recent graduate of Oregon State University (OSU). There I received a Bachelors of Science in Computer Science, orientating my classes to specialize in security. This resulted in my knowledge base ranging from software and firmware development to malware analysis, attack creation, and system defense. </p>
+			<p>Aside from my time at coursework at OSU, I have completed several noteworthy accomplishments that have provided me with relevant work experience. These being competing for a place at a competitive internship with Cambia Health Solutions, being the team lead while developing a Green Smart Gardening System for the Intel Corporation, and co-authoring Balancing Image Privacy and Usability with Thumbnail-Preserving Encryption.</p>
+			<p>What all this culminates to, is my aim to combine my love for helping people with my enthusiasm for computing. Ideally, I would fulfill my want to help by developing security or responding to threats. Especially if this could be done in an environment where I could bring my passion for computer security, enjoyment in working with others, and want to learn with me.</p>
+			<p>I hope you have a great rest of your day and thanks for visiting!</p>
+		</div>
+		
+		<div class="w3-container w3-blue">
+			<h5>Knowledge Base</h5>
+		</div>
+		<div class="w3-container">
+			<h5>LANGUAGES:</h5>
+			<p>C/C++, Python, x86, Java, Bash, HTML/CSS</p>
+			<h5>TECHNOLOGIES:</h5>
+			<p>pwntools, AWS Mechanical Turk, Salesforce, Docker, Ansible</p>
+			<h5>SKILLS:</h5>
+			<p>Software & Firmware Development, Debugging, QA, Malware Analysis, Attack Creation, System Defense, Team Management</p>
+		</div>
+		
+		<div class="w3-container w3-blue">
+			<h5>Resume</h5>
+		</div>
+		<div class="w3-container" style="text-align:center;">
+			<br> <a href="https://drive.google.com/file/d/1N_pPu1MOgXrUEzUBylWfkcOB21PIjsEp/view?usp=sharing" class="w3-button w3-black">View Resume</a> 
+			<p></p><!-- tricks the container into giving me whitespace-->
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Published -->
+	<div id="published" class="w3-modal">
+	  <div class="w3-modal-content w3-animate-zoom">
+		<div class="w3-container w3-indigo">
+		  <span onclick="document.getElementById('published').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+		  <h1>Published Work</h1>
+		</div>
+		<div class="w3-container w3-blue">
+			<h5>Balancing Image Privacy and Usability with Thumbnail-Preserving Encryption</h5>
+		</div>
+		<div class="w3-container">
+			<h5>AUTHORS:</h5>
+			<p>Kimia Tajik, Akshith Gunasekaran, Rhea Dutta, Brandon Ellis, Rakesh B. Bobba, Mike Rosulek, Charles V. Wright and Wu-chi Feng</p>
+			<h5>ABSTRACT:</h5>
+			<p>In this paper we motivate the need for image encryption techniques which preserve certain visual features of images (and hide all other information), to provide a balance between privacy and usability in the context of cloud-based image storage services. In particular, we introduce the concept of ideal or exact Thumbnail-Preserving Encryption (TPE), a special case of format-preserving encryption, and present a concrete construction. In TPE, a ciphertext is itself an image that has the same thumbnail as the plaintext (unencrypted) image, but that provably leaks nothing about the plaintext beyond its thumbnail. We provide a formal security analysis for the construction, and a prototype implementation to demonstrate compatibility with existing services. We also study the ability of users to distinguish between thumbnail images preserved by TPE. Our findings indicate that TPE is a realistic and promising way to balance usability and privacy concerns for images.</p>
+			<h5>LINKS:</h5>
+			<a href ="#">Future place of direct link to paper</a> <br>
+			<a href ="http://photoencryption.org/">Our paper's own website</a> <br>
+			<a href ="https://www.ndss-symposium.org/ndss2019/accepted-papers/">NDSS: Accepted Papers</a> 
+			<p></p><!-- tricks the container into giving me whitespace-->
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Avocation -->
+	<div id="avocation" class="w3-modal">
+	  <div class="w3-modal-content w3-animate-zoom">
+		<div class="w3-container w3-indigo">
+		  <span onclick="document.getElementById('avocation').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+		  <h1>Avocation</h1>
+		</div>
+		
+		<div class="w3-container w3-blue">
+			<h5>Astrophotography</h5>
+		</div>
+		
+		<div class="w3-container">
+			<div class="w3-row-padding w3-margin-top">
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/astro_1.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/115YU5sUY9poK13AB3ZJJqBkW0J4XUc5r/view?usp=sharing">Waxing Crescent Moon</a> 
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/astro_2.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/15oW9HbnSbPNn8YnpSOJ072qhVwtcEXSO/view?usp=sharing">Ursa Major</a> 
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/astro_3.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/1O7ybTRz4h8BMJY7UZG-G1H_ojA3mZ9Zs/view?usp=sharing">Full Moon</a> 
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<p></p><!-- tricks the container into giving me whitespace-->
+		</div>
+
+		<div class="w3-container w3-blue">
+			<h5>Photography</h5>
+		</div>
+		<div class="w3-container">
+			<div class="w3-row-padding w3-margin-top">
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/photo_1.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/1POw6kKFdoQMZuPoWWxU97Z_R9bloAZbn/view?usp=sharing">A Fly Formation</a> 
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/photo_2.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/1Enhi1My2jsjQEU37A6YQ3g46WsNNzg3Y/view?usp=sharing">Corvallis Sunrise</a> 
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/photo_3.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/1I-Dud9cAROJHhlmjAdangBouOPu1eHWJ/view?usp=sharing">Snowpocalypse</a> 
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<p></p><!-- tricks the container into giving me whitespace-->
+		</div>
+
+		<div class="w3-container w3-blue">
+			<h5>Succulents</h5>
+		</div>
+		<div class="w3-container">
+			<div class="w3-row-padding w3-margin-top">
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/plant_1.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/1EiNuJrm1a88NcMrdHuEcqd3nZ69Wudl1/view?usp=sharing">Haworthia Reinwardtii</a> 
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/plant_2.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/1pNvd9EMHxBzpe_P11IaSHSkBUFaw76cb/view?usp=sharing">Black Haworthia</a> 
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="w3-third">
+				<div class="w3-card">
+				  <img src="../images/plant_3.jpg" style="width:100%">
+				  <div class="w3-container" style="text-align:center;">
+					<a target="_blank" href ="https://drive.google.com/file/d/10c0RGEUCKJ_RurvZCHlgA92nygWCwdYh/view?usp=sharing">Crassula Rupestris</a> 
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<p></p><!-- tricks the container into giving me whitespace-->
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Contact -->
+	<div id="contact" class="w3-modal">
+	  <div class="w3-modal-content w3-animate-zoom">
+		<div class="w3-container w3-indigo">
+		  <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+		  <h1>Contact</h1>
+		</div>
+		
+		<div class="w3-container w3-blue">
+			<h5>Email</h5>
+		</div>
+		<div class="w3-container">
+			<p>If you would like to get in contact with me, please feel free to reach out through the following email:</p>
+			<a href ="mailto:brandon.mp.ellis@gmail.com">brandon.mp.ellis@gmail.com</a>
+			<p></p><!-- tricks the container into giving me whitespace-->
+		</div>
+		
+		<div class="w3-container w3-blue">
+			<h5>Located</h5>
+		</div>
+		<div class="w3-container">
+			<p>I am currently based out of Corvallis, Oregon...</p>
+			<p class="tiny">...and now, dear reader, I'm afraid you know too much</p>
+			<p></p><!-- tricks the container into giving me whitespace-->
+		</div>
+	  </div>
+	</div>
+</body>
+</html>
+
