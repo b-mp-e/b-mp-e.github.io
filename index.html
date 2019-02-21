@@ -75,25 +75,25 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 	  </div>
 	  
 	  <div class="w3-display-topleft w3-container w3-xlarge">
-		<p><button onclick="document.getElementById('about').style.display='block'" class="w3-button w3-block w3-white w3-hover-indigo" style="width:100%">about</button></p>
-		<p><button onclick="document.getElementById('published').style.display='block'" class="w3-button w3-block w3-white w3-hover-indigo" style="width:100%">publications</button></p>
+		<p><button onclick="document.getElementById('about').style.display='block'" class="w3-button w3-round w3-block w3-white w3-hover-indigo" style="width:100%">about</button></p>
+		<p><button onclick="document.getElementById('published').style.display='block'" class="w3-button w3-round w3-block w3-white w3-hover-indigo" style="width:100%">publications</button></p>
 	  </div>
 	  
 	  <div class="w3-display-bottomright w3-container w3-xlarge">
-		<p><button onclick="document.getElementById('avocation').style.display='block'" class="w3-button w3-block w3-white w3-hover-indigo" style="width:100%">avocations</button></p>
-		<p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-block w3-white w3-hover-indigo" style="width:100%">contact</button></p>
+		<p><button onclick="document.getElementById('avocation').style.display='block'" class="w3-button w3-round w3-block w3-white w3-hover-indigo" style="width:100%">avocations</button></p>
+		<p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-round w3-block w3-white w3-hover-indigo" style="width:100%">contact</button></p>
 	  </div>
 	</div>
 
 	<!-- About -->
 	<div id="about" class="w3-modal">
 	  <div class="w3-modal-content w3-animate-zoom">
-		<div class="w3-container w3-indigo">
-		  <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+		<div class="w3-container w3-white">
+		  <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
 		  <h1>About</h1>
 		</div>
 		
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Me</h5>
 		</div>
 		<div class="w3-container">
@@ -104,7 +104,7 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 			<p>I hope you have a great rest of your day and thanks for visiting!</p>
 		</div>
 		
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Knowledge Base</h5>
 		</div>
 		<div class="w3-container">
@@ -116,11 +116,11 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 			<p>Software & Firmware Development, Debugging, QA, Malware Analysis, Attack Creation, System Defense, Team Management</p>
 		</div>
 		
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Resume</h5>
 		</div>
 		<div class="w3-container" style="text-align:center;">
-			<br> <a href="https://drive.google.com/file/d/1N_pPu1MOgXrUEzUBylWfkcOB21PIjsEp/view?usp=sharing" class="w3-button w3-black">View Resume</a> 
+			<br> <a target="_blank" href="https://drive.google.com/file/d/1N_pPu1MOgXrUEzUBylWfkcOB21PIjsEp/view?usp=sharing" class="w3-button w3-black">View Resume</a> 
 			<p></p><!-- tricks the container into giving me whitespace-->
 		</div>
 	  </div>
@@ -129,11 +129,11 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 	<!-- Published -->
 	<div id="published" class="w3-modal">
 	  <div class="w3-modal-content w3-animate-zoom">
-		<div class="w3-container w3-indigo">
-		  <span onclick="document.getElementById('published').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+		<div class="w3-container w3-white">
+		  <span onclick="document.getElementById('published').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
 		  <h1>Published Work</h1>
 		</div>
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Balancing Image Privacy and Usability with Thumbnail-Preserving Encryption</h5>
 		</div>
 		<div class="w3-container">
@@ -143,8 +143,8 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 			<p>In this paper we motivate the need for image encryption techniques which preserve certain visual features of images (and hide all other information), to provide a balance between privacy and usability in the context of cloud-based image storage services. In particular, we introduce the concept of ideal or exact Thumbnail-Preserving Encryption (TPE), a special case of format-preserving encryption, and present a concrete construction. In TPE, a ciphertext is itself an image that has the same thumbnail as the plaintext (unencrypted) image, but that provably leaks nothing about the plaintext beyond its thumbnail. We provide a formal security analysis for the construction, and a prototype implementation to demonstrate compatibility with existing services. We also study the ability of users to distinguish between thumbnail images preserved by TPE. Our findings indicate that TPE is a realistic and promising way to balance usability and privacy concerns for images.</p>
 			<h5>LINKS:</h5>
 			<a href ="#">Future place of direct link to paper</a> <br>
-			<a href ="http://photoencryption.org/">Our paper's own website</a> <br>
-			<a href ="https://www.ndss-symposium.org/ndss2019/accepted-papers/">NDSS: Accepted Papers</a> 
+			<a target="_blank" href ="http://photoencryption.org/">Our paper's own website</a> <br>
+			<a target="_blank" href ="https://www.ndss-symposium.org/ndss2019/accepted-papers/">NDSS: Accepted Papers</a> 
 			<p></p><!-- tricks the container into giving me whitespace-->
 		</div>
 	  </div>
@@ -153,12 +153,12 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 	<!-- Avocation -->
 	<div id="avocation" class="w3-modal">
 	  <div class="w3-modal-content w3-animate-zoom">
-		<div class="w3-container w3-indigo">
-		  <span onclick="document.getElementById('avocation').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+		<div class="w3-container w3-white">
+		  <span onclick="document.getElementById('avocation').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
 		  <h1>Avocation</h1>
 		</div>
 		
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Astrophotography</h5>
 		</div>
 		
@@ -166,10 +166,10 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 			<div class="w3-row-padding w3-margin-top">
 			  <div class="w3-third">
 				<div class="w3-card">
-				  <img src="images/astro_1.jpg" style="width:100%">
-				  <div class="w3-container" style="text-align:center;">
-					<a target="_blank" href ="https://drive.google.com/file/d/115YU5sUY9poK13AB3ZJJqBkW0J4XUc5r/view?usp=sharing">Waxing Crescent Moon</a> 
-				  </div>
+					<img src="images/astro_1.jpg" style="width:100%">
+					<div class="w3-container" style="text-align:center;">
+						<a target="_blank" href ="https://drive.google.com/file/d/115YU5sUY9poK13AB3ZJJqBkW0J4XUc5r/view?usp=sharing">Waxing Crescent Moon</a> 
+					</div>
 				</div>
 			  </div>
 
@@ -194,7 +194,7 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 			<p></p><!-- tricks the container into giving me whitespace-->
 		</div>
 
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Photography</h5>
 		</div>
 		<div class="w3-container">
@@ -229,7 +229,7 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 			<p></p><!-- tricks the container into giving me whitespace-->
 		</div>
 
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Succulents</h5>
 		</div>
 		<div class="w3-container">
@@ -269,12 +269,12 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 	<!-- Contact -->
 	<div id="contact" class="w3-modal">
 	  <div class="w3-modal-content w3-animate-zoom">
-		<div class="w3-container w3-indigo">
-		  <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+		<div class="w3-container w3-white">
+		  <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">X</span>
 		  <h1>Contact</h1>
 		</div>
 		
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Email</h5>
 		</div>
 		<div class="w3-container">
@@ -283,7 +283,7 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 			<p></p><!-- tricks the container into giving me whitespace-->
 		</div>
 		
-		<div class="w3-container w3-blue">
+		<div class="w3-container w3-indigo">
 			<h5>Located</h5>
 		</div>
 		<div class="w3-container">
@@ -293,6 +293,10 @@ https://www.w3schools.com/w3css/w3css_templates.asp
 		</div>
 	  </div>
 	</div>
+	
+	
+	
+	<script src="js/withoutscript.js"></script>
 </body>
 </html>
 
